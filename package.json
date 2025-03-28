@@ -1,9 +1,18 @@
 {
+  "name": "puppeteer-scraper",
+  "version": "1.0.0",
+  "description": "A simple Puppeteer scraping app to search for Tesla cars on IAAI",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
   "engines": {
     "node": "16.x"
   },
   "dependencies": {
     "express": "^4.17.1",
     "puppeteer": "^19.0.0"
-  }
+  },
+  "author": "",
+  "license": "ISC"
 }
